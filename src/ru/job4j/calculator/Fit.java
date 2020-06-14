@@ -24,7 +24,7 @@ public class Fit {
 
         System.out.println("Man " + height1 + " is " + man1);
         System.out.println("Woman " + height2 + " is " + woman1);
-        System.out.println( " ");
+        System.out.println(" ");
         System.out.println("Man 187 is " + man2);
         System.out.println("Woman 165 is " + woman2);
     }
