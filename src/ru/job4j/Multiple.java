@@ -4,7 +4,7 @@ public class Multiple {
     public static void main(String[] args) {
         int x = 1;
         int y;
-       int count = 0;
+       int count;
         for (int i = 1; i <= 9; i++) {
 
             count = i;
