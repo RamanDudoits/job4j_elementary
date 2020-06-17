@@ -17,8 +17,8 @@ public class EqLastTest {
 
     @Test
     public void whenNotEq() {
-        int[] left = {1, 2, 3};
-        int[] right = {3, 3, 4};
+        int[] left = {1, 2};
+        int[] right = {1, 2, 4, 5};
         assertThat(check(left, right), is(false));
     }
 }
