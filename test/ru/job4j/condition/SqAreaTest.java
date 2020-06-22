@@ -7,7 +7,6 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 
 public class SqAreaTest {
-
     @Test
     public void whenPandKThen2Square() {
         int p = 6, k = 2;

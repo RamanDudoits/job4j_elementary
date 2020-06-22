@@ -8,7 +8,6 @@ import java.io.FileInputStream;
 import static org.junit.Assert.*;
 
 public class FitTest {
-
     @Test
     public void when187ManThen10005Weight() {
         short in = 187;

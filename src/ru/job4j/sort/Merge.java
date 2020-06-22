@@ -3,7 +3,6 @@ package ru.job4j.sort;
 import java.util.Arrays;
 
 public class Merge {
-
     public int[] merge(int[] left, int[] right) {
         int[] rsl = new int[left.length + right.length];
         int index1 = 0;
@@ -18,7 +17,7 @@ public class Merge {
             rsl[index3] = right[index2];
             index2++;
             index3++;
-        }
+             }
         }
         while (index1 < left.length) {
             rsl[index3] = left[index1];

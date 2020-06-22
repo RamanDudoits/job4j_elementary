@@ -6,7 +6,6 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 
 public class TurnTest {
-
     @Test
     public void whenBackToArray() {
         int[] input = {1, 2, 3, 4};

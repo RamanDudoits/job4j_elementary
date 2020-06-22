@@ -6,7 +6,6 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class PointTest {
-
     @Test
     public void when1122DistanceThen141Result() {
         int x1 = 1, x2 = 2, y1 = 1, y2 = 2;

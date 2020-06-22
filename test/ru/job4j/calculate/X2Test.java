@@ -6,10 +6,8 @@ import static org.hamcrest.Matchers.is;
 import org.junit.Test;
 
 public class X2Test {
-
     @Test
     public void whenBCZero() {
-
         int a = 10;
         int b = 0;
         int c = 0;
@@ -21,7 +19,6 @@ public class X2Test {
 
     @Test
     public void whenBCZer() {
-
         int a = 1;
         int b = 1;
         int c = 1;
@@ -33,7 +30,6 @@ public class X2Test {
 
     @Test
     public void whenBCZe() {
-
         int a = 0;
         int b = 1;
         int c = 1;
@@ -45,7 +41,6 @@ public class X2Test {
 
     @Test
     public void whenBCZro() {
-
         int a = 1;
         int b = 1;
         int c = 0;
@@ -57,7 +52,6 @@ public class X2Test {
 
     @Test
     public void whenBCZeo() {
-
         int a = 1;
         int b = 1;
         int c = 1;

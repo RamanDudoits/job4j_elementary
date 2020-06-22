@@ -5,7 +5,6 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.hamcrest.core.Is.is;
 public class MaxTest {
-
     @Test
     public void max() {
         int result = Max.max(2, 1);

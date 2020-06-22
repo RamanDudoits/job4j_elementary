@@ -6,10 +6,8 @@ public class Multiple {
         int y;
        int count;
         for (int i = 1; i <= 9; i++) {
-
             count = i;
             y = x * count;
-
             System.out.println(x + " * " + count + " = " + y);
         }
     }

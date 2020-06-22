@@ -10,7 +10,6 @@ public class Boar {
                     System.out.print("  ");
                 }
             }
-            /* добавляем перевод на новую строку. */
             System.out.println();
         }
     }
