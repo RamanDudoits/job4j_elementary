@@ -10,7 +10,6 @@ public class Battery {
     public void exchange(Battery another) {
         this.load = this.load + another.load;
     }
-
     public static void main(String[] args) {
         Battery battery = new Battery(100);
         Battery another = new Battery(50);
