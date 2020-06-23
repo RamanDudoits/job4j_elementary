@@ -8,12 +8,15 @@ public class Battery {
     }
 
     public void exchange(Battery another) {
-        this.load = this.load + another.load;
+        another.load = this.load + another.load;
+        this.load = 0;
     }
+
     public static void main(String[] args) {
         Battery battery = new Battery(100);
         Battery another = new Battery(50);
-        another.exchange(battery);
+        System.out.println(battery.load + " " + another.load);
+        battery.exchange(another);
         System.out.println(another.load);
     }
 }
