@@ -4,5 +4,6 @@ class Dentist extends Doctor {
     private int toothNumber;
 
     public boolean caries(int toothNumber) {
+        return caries(12);
     }
 }

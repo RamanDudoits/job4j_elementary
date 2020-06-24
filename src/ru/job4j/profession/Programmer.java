@@ -4,8 +4,10 @@ class Programmer extends Engineer {
     private String langProgram;
 
     public boolean tester() {
+        return true;
     }
 
     public boolean programmer() {
+        return false;
     }
 }
