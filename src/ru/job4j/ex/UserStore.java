@@ -7,6 +7,7 @@ public class UserStore {
         for (int i = 0; i < users.length; i++) {
             if (users[i].getUsername().equals(login)) {
                 rsl = i;
+                break;
             }
         }
            if (rsl == -1) {
@@ -23,7 +24,7 @@ public class UserStore {
         if (login.length() < 3) {
             throw new UserInvalidException("Not enough characters");
         }
-        return false;
+        return true;
     }
 
     public static void main(String[] args) {
